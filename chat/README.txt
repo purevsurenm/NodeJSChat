@@ -1,0 +1,1 @@
+This is a very simple example of making a realtime chat using NODEJS MONGODB SOCKET.IO
