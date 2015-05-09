@@ -1,0 +1,40 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+
+*{
+  font-family: "Open Sans", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.chat{
+	margin: 20px;
+	width: 250px;
+}
+.msg-ctnr,
+textarea,
+input{
+	padding: 10px;
+	max-width: 100%;
+	min-width: 100%;
+	border: 1px solid black;
+}
+.msg-ctnr{
+	height: 300px;
+	border-top: 0;
+	border-bottom: 0;
+	overflow-x: hidden;
+}
+.msg{
+	overflow: hidden;
+	font-size: 12px;
+	margin: 10px 0px;
+
+}
+.msg span{
+	text-decoration: underline;
+	font-weight: bold;
+	float: left;
+	margin-right: 10px;
+}
+.msg p{
+	float: left;
+}
